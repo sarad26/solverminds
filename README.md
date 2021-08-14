@@ -6,22 +6,18 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Notes
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. Setup the angular project. Version 8
+2. Routing model with 3 pages type all design and elements
+3. Use an open API to get some data and display it in our(C-Programming) page.
+(https://newsapi.org/v2/everything?q=tesla&from=2021-07-14&sortBy=publishedAt&apiKey=cb362300f4954815bfda23fbdc69092a)
+4. Used Modules for routing concept 
+5,Used Components for create a pages
+6, Used Input, Output, for data sharing (from web technology to mobile technology) 
+7, Used lifecycle hooks for API call, 
+8, Used Services for API data shared.
+9, Used sord data and filter for table(Car List page)
+10, Used bootstrap and Angular ng-grid 
+11, Used pipe for footer copyright.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
