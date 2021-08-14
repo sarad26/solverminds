@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+ 
+<html>
+ 
+<head>
+    <title>
+        Simple web Development Template
+    </title>
+</head>
+ 
+<body>
+    <nav class="navbar background">
+        <ul class="nav-list">
+            <div class="logo">
+                <img src="../assets/images/sample.jpeg" alt="Logo" width="50px">
+            </div>
+            <li><a routerLink="" routerLinkActive="active">Home</a></li>
+            <li><a routerLink="web-technology" routerLinkActive="active">Web Technology</a></li>
+            <li><a routerLink="c-programming" routerLinkActive="active">C Programming</a></li>
+            <li><a routerLink="courses-list" routerLinkActive="active">Car List</a></li>
+        </ul>
+ 
+        <div class="rightNav">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm">Search</button>
+        </div>
+    </nav>
+ 
+   
+    <router-outlet></router-outlet>
+    <footer class="background fixed">
+        <p class="text-footer">
+            Copyright ©-{{day| date:'yyy'}}
+        </p>
+ 
+ 
+    </footer>
+</body>
+ 
+</html>
+
+

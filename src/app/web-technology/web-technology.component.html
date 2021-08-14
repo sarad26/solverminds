@@ -1,0 +1,34 @@
+<section class="flex-container">
+  <div>
+    <h3>Parent Component</h3>
+    <!-- <button (click)="applyFilter()">Click</button> -->
+    
+    <!-- 
+    <table>
+        <tr>
+          <th>Company</th>
+          <th>Contact</th>
+          <th>Country</th>
+        </tr>
+        <tr *ngFor='let value of myData'>
+          <td>{{value.title}}</td>
+          <td>Maria Anders</td>
+          <td>Germany</td>
+        </tr>
+      
+      </table> -->
+    
+      <p> Random number from child component</p>
+      {{randomnNumberhtml || 'Not Yet Genarate'}}
+  </div>
+<div>
+  <app-mobile-techology 
+  [subjectChild]="subjectParent" (numberGenarated1)="onNumberGenarated($event)"
+  ></app-mobile-techology>
+</div>
+</section>
+
+
+
+
+ 

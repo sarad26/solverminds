@@ -1,0 +1,29 @@
+<section>
+
+    <table class="table table-hover">
+        <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Author</th>
+              <th scope="col">Title</th>
+              <th scope="col">Description</th>
+              <th scope="col">PublishedAt</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let newsList of rowData.articles; let i = index">
+              <th scope="row">{{i+1}}</th>
+              <td>{{newsList.author}}</td>
+              <td>{{newsList.title}}</td>
+              <td>{{newsList.description}}</td>
+              <td>{{newsList.publishedAt}}</td>
+              
+            </tr>
+           
+          </tbody>
+      </table>
+
+      {{result}}
+</section>
+
+

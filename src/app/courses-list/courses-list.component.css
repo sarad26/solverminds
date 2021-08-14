@@ -1,0 +1,11 @@
+/* @import "../../../node_modules/ag-grid-community/dist/styles/ag-grid.css"; */
+/* @import "../../../node_modules/ag-grid-community/dist/styles/ag-theme-alpine.css"; */
+
+.coursList{
+    margin-top: 50px;
+    margin-bottom: 50px;
+   
+}
+.ag-theme-alpine{
+    margin: 0 auto;
+}
